@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		912222F419874C34003544B1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912222F319874C34003544B1 /* main.swift */; };
+		912222F619874C34003544B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912222F519874C34003544B1 /* AppDelegate.swift */; };
+		912222F819874C34003544B1 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912222F719874C34003544B1 /* GameScene.swift */; };
+		912222FA19874C34003544B1 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 912222F919874C34003544B1 /* GameScene.sks */; };
+		912222FC19874C34003544B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912222FB19874C34003544B1 /* Images.xcassets */; };
+		912222FF19874C34003544B1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 912222FD19874C34003544B1 /* MainMenu.xib */; };
+		9122230B19874C34003544B1 /* SwiftSpaceAdventureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9122230A19874C34003544B1 /* SwiftSpaceAdventureTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9122230519874C34003544B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 912222E619874C34003544B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 912222ED19874C34003544B1;
+			remoteInfo = SwiftSpaceAdventure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		912222EE19874C34003544B1 /* SwiftSpaceAdventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSpaceAdventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		912222F219874C34003544B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		912222F319874C34003544B1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		912222F519874C34003544B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		912222F719874C34003544B1 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		912222F919874C34003544B1 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		912222FB19874C34003544B1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		912222FE19874C34003544B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9122230419874C34003544B1 /* SwiftSpaceAdventureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSpaceAdventureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9122230919874C34003544B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9122230A19874C34003544B1 /* SwiftSpaceAdventureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSpaceAdventureTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		912222EB19874C34003544B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9122230119874C34003544B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		912222E519874C34003544B1 = {
+			isa = PBXGroup;
+			children = (
+				912222F019874C34003544B1 /* SwiftSpaceAdventure */,
+				9122230719874C34003544B1 /* SwiftSpaceAdventureTests */,
+				912222EF19874C34003544B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		912222EF19874C34003544B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				912222EE19874C34003544B1 /* SwiftSpaceAdventure.app */,
+				9122230419874C34003544B1 /* SwiftSpaceAdventureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		912222F019874C34003544B1 /* SwiftSpaceAdventure */ = {
+			isa = PBXGroup;
+			children = (
+				912222F519874C34003544B1 /* AppDelegate.swift */,
+				912222F719874C34003544B1 /* GameScene.swift */,
+				912222F919874C34003544B1 /* GameScene.sks */,
+				912222FB19874C34003544B1 /* Images.xcassets */,
+				912222FD19874C34003544B1 /* MainMenu.xib */,
+				912222F119874C34003544B1 /* Supporting Files */,
+			);
+			path = SwiftSpaceAdventure;
+			sourceTree = "<group>";
+		};
+		912222F119874C34003544B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				912222F219874C34003544B1 /* Info.plist */,
+				912222F319874C34003544B1 /* main.swift */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9122230719874C34003544B1 /* SwiftSpaceAdventureTests */ = {
+			isa = PBXGroup;
+			children = (
+				9122230A19874C34003544B1 /* SwiftSpaceAdventureTests.swift */,
+				9122230819874C34003544B1 /* Supporting Files */,
+			);
+			path = SwiftSpaceAdventureTests;
+			sourceTree = "<group>";
+		};
+		9122230819874C34003544B1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9122230919874C34003544B1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		912222ED19874C34003544B1 /* SwiftSpaceAdventure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9122230E19874C34003544B1 /* Build configuration list for PBXNativeTarget "SwiftSpaceAdventure" */;
+			buildPhases = (
+				912222EA19874C34003544B1 /* Sources */,
+				912222EB19874C34003544B1 /* Frameworks */,
+				912222EC19874C34003544B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSpaceAdventure;
+			productName = SwiftSpaceAdventure;
+			productReference = 912222EE19874C34003544B1 /* SwiftSpaceAdventure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9122230319874C34003544B1 /* SwiftSpaceAdventureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9122231119874C34003544B1 /* Build configuration list for PBXNativeTarget "SwiftSpaceAdventureTests" */;
+			buildPhases = (
+				9122230019874C34003544B1 /* Sources */,
+				9122230119874C34003544B1 /* Frameworks */,
+				9122230219874C34003544B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9122230619874C34003544B1 /* PBXTargetDependency */,
+			);
+			name = SwiftSpaceAdventureTests;
+			productName = SwiftSpaceAdventureTests;
+			productReference = 9122230419874C34003544B1 /* SwiftSpaceAdventureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		912222E619874C34003544B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Andy;
+				TargetAttributes = {
+					912222ED19874C34003544B1 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					9122230319874C34003544B1 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 912222ED19874C34003544B1;
+					};
+				};
+			};
+			buildConfigurationList = 912222E919874C34003544B1 /* Build configuration list for PBXProject "SwiftSpaceAdventure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 912222E519874C34003544B1;
+			productRefGroup = 912222EF19874C34003544B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				912222ED19874C34003544B1 /* SwiftSpaceAdventure */,
+				9122230319874C34003544B1 /* SwiftSpaceAdventureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		912222EC19874C34003544B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912222FA19874C34003544B1 /* GameScene.sks in Resources */,
+				912222FC19874C34003544B1 /* Images.xcassets in Resources */,
+				912222FF19874C34003544B1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9122230219874C34003544B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		912222EA19874C34003544B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912222F819874C34003544B1 /* GameScene.swift in Sources */,
+				912222F619874C34003544B1 /* AppDelegate.swift in Sources */,
+				912222F419874C34003544B1 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9122230019874C34003544B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9122230B19874C34003544B1 /* SwiftSpaceAdventureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9122230619874C34003544B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 912222ED19874C34003544B1 /* SwiftSpaceAdventure */;
+			targetProxy = 9122230519874C34003544B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		912222FD19874C34003544B1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				912222FE19874C34003544B1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9122230C19874C34003544B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9122230D19874C34003544B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9122230F19874C34003544B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiftSpaceAdventure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9122231019874C34003544B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SwiftSpaceAdventure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9122231219874C34003544B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiftSpaceAdventure.app/Contents/MacOS/SwiftSpaceAdventure";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftSpaceAdventureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		9122231319874C34003544B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SwiftSpaceAdventure.app/Contents/MacOS/SwiftSpaceAdventure";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwiftSpaceAdventureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		912222E919874C34003544B1 /* Build configuration list for PBXProject "SwiftSpaceAdventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9122230C19874C34003544B1 /* Debug */,
+				9122230D19874C34003544B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9122230E19874C34003544B1 /* Build configuration list for PBXNativeTarget "SwiftSpaceAdventure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9122230F19874C34003544B1 /* Debug */,
+				9122231019874C34003544B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9122231119874C34003544B1 /* Build configuration list for PBXNativeTarget "SwiftSpaceAdventureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9122231219874C34003544B1 /* Debug */,
+				9122231319874C34003544B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 912222E619874C34003544B1 /* Project object */;
+}
