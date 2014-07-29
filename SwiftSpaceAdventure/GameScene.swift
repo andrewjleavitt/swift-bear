@@ -24,11 +24,11 @@ class GameScene: SKScene {
         
         let location = theEvent.locationInNode(self)
         
-        let sprite = SKSpriteNode(imageNamed:"Spaceship")
+        let sprite = Spaceship()
         sprite.position = location;
         sprite.setScale(0.5)
         
-        let action = SKAction.rotateByAngle(M_PI, duration:1)
+        let action = SKAction.rotateByAngle(CGFloat(M_PI), duration:1)
         sprite.runAction(SKAction.repeatActionForever(action))
         
         self.addChild(sprite)

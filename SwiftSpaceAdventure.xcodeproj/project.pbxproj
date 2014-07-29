@@ -14,6 +14,7 @@
 		912222FC19874C34003544B1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912222FB19874C34003544B1 /* Images.xcassets */; };
 		912222FF19874C34003544B1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 912222FD19874C34003544B1 /* MainMenu.xib */; };
 		9122230B19874C34003544B1 /* SwiftSpaceAdventureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9122230A19874C34003544B1 /* SwiftSpaceAdventureTests.swift */; };
+		9122231519874E2B003544B1 /* Spaceship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9122231419874E2B003544B1 /* Spaceship.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		9122230419874C34003544B1 /* SwiftSpaceAdventureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSpaceAdventureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9122230919874C34003544B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9122230A19874C34003544B1 /* SwiftSpaceAdventureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSpaceAdventureTests.swift; sourceTree = "<group>"; };
+		9122231419874E2B003544B1 /* Spaceship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spaceship.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				912222F519874C34003544B1 /* AppDelegate.swift */,
+				9122231419874E2B003544B1 /* Spaceship.swift */,
 				912222F719874C34003544B1 /* GameScene.swift */,
 				912222F919874C34003544B1 /* GameScene.sks */,
 				912222FB19874C34003544B1 /* Images.xcassets */,
@@ -217,6 +220,7 @@
 			files = (
 				912222F819874C34003544B1 /* GameScene.swift in Sources */,
 				912222F619874C34003544B1 /* AppDelegate.swift in Sources */,
+				9122231519874E2B003544B1 /* Spaceship.swift in Sources */,
 				912222F419874C34003544B1 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
