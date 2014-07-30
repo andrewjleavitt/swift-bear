@@ -10,10 +10,23 @@ import SpriteKit
 
 class Spaceship: SKSpriteNode {
     
+    var fireAction: Bool = false
+    var secondFireAction: Bool = false
+    var vector: CGPoint = CGPoint()
+    
+    let spaceshipTexture: SKTexture = SKTexture(imageNamed: "Spaceship")
+    
     init() {
-        return super.init(texture: SKTexture(imageNamed: "Spaceship"),
-                   color: SKColor.redColor(),
+        super.init(texture: spaceshipTexture,
+                   color: SKColor(),
                    size: CGSize(width: 50, height: 50))
+        
+        self.name = "hull"
+
+    }
+    
+    func setStartingPosition() {
+        self.position = CGPointMake(CGRectGetMidX(self.scene.frame), CGRectGetMinY(self.scene.frame)+100)
     }
     
 }

@@ -15,6 +15,8 @@
 		912222FF19874C34003544B1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 912222FD19874C34003544B1 /* MainMenu.xib */; };
 		9122230B19874C34003544B1 /* SwiftSpaceAdventureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9122230A19874C34003544B1 /* SwiftSpaceAdventureTests.swift */; };
 		9122231519874E2B003544B1 /* Spaceship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9122231419874E2B003544B1 /* Spaceship.swift */; };
+		91222317198890F0003544B1 /* StarField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91222316198890F0003544B1 /* StarField.swift */; };
+		912223191988ADBC003544B1 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912223181988ADBC003544B1 /* Controller.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		9122230919874C34003544B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9122230A19874C34003544B1 /* SwiftSpaceAdventureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSpaceAdventureTests.swift; sourceTree = "<group>"; };
 		9122231419874E2B003544B1 /* Spaceship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spaceship.swift; sourceTree = "<group>"; };
+		91222316198890F0003544B1 /* StarField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarField.swift; sourceTree = "<group>"; };
+		912223181988ADBC003544B1 /* Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 				912222F519874C34003544B1 /* AppDelegate.swift */,
 				9122231419874E2B003544B1 /* Spaceship.swift */,
 				912222F719874C34003544B1 /* GameScene.swift */,
+				912223181988ADBC003544B1 /* Controller.swift */,
+				91222316198890F0003544B1 /* StarField.swift */,
 				912222F919874C34003544B1 /* GameScene.sks */,
 				912222FB19874C34003544B1 /* Images.xcassets */,
 				912222FD19874C34003544B1 /* MainMenu.xib */,
@@ -219,7 +225,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				912222F819874C34003544B1 /* GameScene.swift in Sources */,
+				91222317198890F0003544B1 /* StarField.swift in Sources */,
 				912222F619874C34003544B1 /* AppDelegate.swift in Sources */,
+				912223191988ADBC003544B1 /* Controller.swift in Sources */,
 				9122231519874E2B003544B1 /* Spaceship.swift in Sources */,
 				912222F419874C34003544B1 /* main.swift in Sources */,
 			);

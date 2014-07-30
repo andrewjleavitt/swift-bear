@@ -7,31 +7,31 @@
 //
 
 import SpriteKit
+import GameController
 
 class GameScene: SKScene {
+    
+    var contentCreated: Bool = false
     override func didMoveToView(view: SKView) {
-        /* Setup your scene here */
-        let myLabel = SKLabelNode(fontNamed:"Chalkduster")
-        myLabel.text = "Hello, World!";
-        myLabel.fontSize = 65;
-        myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
         
-        self.addChild(myLabel)
+        if(self.contentCreated == false) {
+            self.createSceneContents()
+        }
+        
+        var controller  = GCController.controllers()
+        if controller.count > 0 {
+            NSLog("friggin miracle")
+        } else {
+            NSLog("no dice")
+        }
     }
     
-    override func mouseDown(theEvent: NSEvent) {
-        /* Called when a mouse click occurs */
-        
-        let location = theEvent.locationInNode(self)
-        
-        let sprite = Spaceship()
-        sprite.position = location;
-        sprite.setScale(0.5)
-        
-        let action = SKAction.rotateByAngle(CGFloat(M_PI), duration:1)
-        sprite.runAction(SKAction.repeatActionForever(action))
-        
-        self.addChild(sprite)
+    func createSceneContents() -> Void {
+        var spaceship = Spaceship()
+        self.addChild(spaceship as SKSpriteNode)
+        spaceship.setStartingPosition();
+        self.addChild(StarField() as SKNode)
+        self.contentCreated = true
     }
     
     override func update(currentTime: CFTimeInterval) {
